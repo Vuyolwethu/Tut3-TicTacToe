@@ -1,8 +1,8 @@
 #ifndef TicTacToe_H
 #define TicTacToe_H
 #include<iostream>
-//char Board[3][3];
 
+// class and its member's declaration
 class TicTacToe
 {
 private:
@@ -16,7 +16,7 @@ public:
 	void Input();
 	void changePlayer();
 	char checkWinner();
-	TicTacToe();       // destructor
-	~TicTacToe();      // constructor
+	TicTacToe();       // constructor
+	~TicTacToe();      // destructor
 };
 #endif

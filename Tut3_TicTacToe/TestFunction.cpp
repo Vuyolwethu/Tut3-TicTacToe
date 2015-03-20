@@ -8,6 +8,7 @@ int main()
 	int n = 0;
 	n++;
 	tictactoe.printBoard();
+	// loop that runs provided it is true
 	while (1)
 	{
 		tictactoe.Input();

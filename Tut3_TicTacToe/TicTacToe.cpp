@@ -5,7 +5,16 @@ using namespace std;
 char Board[3][3] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 char player = 'X';
 int n;
+// constructor
+TicTacToe::TicTacToe()
+{
+}
+//destructor
+TicTacToe::~TicTacToe()
+{
 
+}
+// function that gives the current position on the board
 void TicTacToe::printBoard()
 {
 	for (int row = 0; row < 3; row++)
